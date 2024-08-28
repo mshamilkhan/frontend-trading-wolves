@@ -1,0 +1,114 @@
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .goldenbtn,
+    .whitebtn {
+        padding: 0.7rem 2rem 0.7rem 2rem;
+        margin: 1rem 1rem 0rem 0rem;
+
+    }
+
+    .conttext {
+        width: 80%;
+    }
+
+    .navbtn {
+        display: none;
+    }
+
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    #mobnav {
+        display: flex;
+    }
+
+    .cont3 {
+        flex-direction: column;
+    }
+
+    .textbox,
+    .doublebox {
+        width: 86%;
+        line-height: 1.5;
+    }
+
+    .imgbox {
+        width: 95%;
+    }
+
+    .cont8 {
+        flex-direction: column;
+    }
+
+    .cont9 {
+        margin: 0;
+    }
+
+}
+
+
+/* 700---------------------------------------------- */
+@media (max-width: 700px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .btngroup {
+        width: 100%;
+    }
+
+
+    /* .cont1 h1, */
+    .cont5 h1 {
+        font-size: 1.3rem;
+    }
+
+
+    .cont5 p {
+        font-size: 0.6rem;
+    }
+
+    .conttext p {
+        display: none;
+    }
+
+    .cont5inner {
+        flex-direction: column;
+
+    }
+
+    .cont2 {
+        width: 90%;
+    }
+
+    .cont11 ul {
+        flex-direction: column;
+    }
+
+    .smlink {
+        width: 40%;
+    }
+}
